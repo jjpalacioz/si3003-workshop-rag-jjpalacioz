@@ -86,7 +86,14 @@ inventar. Dos piezas: un **retriever** (índice vectorial) y un **generador** (L
 
 **Modelos usados:**
 - Embeddings: `nvidia/nemotron-3-embed-1b`
-- Generación: `nvidia/nemotron-3-super-120b-a12b`
+- Generación: **selección automática** del primer modelo de chat disponible en tu
+  cuenta (prioriza `nvidia/nemotron-3.5-super-vl-120b-a12b` y Nemotron recientes).
+
+> ⚠️ **Nota importante:** el modelo original del curso
+> `nvidia/nemotron-3-super-120b-a12b` fue **deprecado por NVIDIA el 19/10/2026**.
+> Por eso los notebooks ahora **eligen el modelo de generación automáticamente**
+> (función `pick_generation_model`), de modo que siguen funcionando aunque NVIDIA
+> renombre o retire un modelo. Al ejecutar verás impreso qué modelo se seleccionó.
 
 ---
 
