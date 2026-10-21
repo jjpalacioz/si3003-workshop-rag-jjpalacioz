@@ -38,8 +38,13 @@ inventar. Dos piezas: un **retriever** (índice vectorial) y un **generador** (L
 │   └── rag_paper.pdf
 └── docs/
     ├── bloque0_teoria.md         # Bloque 0 — Teoría (HNSW/FAISS)
-    └── bloque_R_reflexion.md     # Bloque R — Reflexión final
+    ├── bloque_R_reflexion.md     # Bloque R — Reflexión final
+    └── evidencias/               # Capturas de ejecución en Colab
 ```
+
+> 📸 **Evidencias:** las capturas que demuestran la ejecución están en
+> [`docs/evidencias/`](docs/evidencias/) (ver su `README.md` para saber qué
+> demuestra cada una).
 
 ---
 
