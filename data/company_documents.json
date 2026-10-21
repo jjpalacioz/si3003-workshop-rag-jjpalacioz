@@ -1,0 +1,50 @@
+[
+  {
+    "id": "producto_001",
+    "title": "AuraCode — Planes y precios",
+    "content": "AuraCode es una plataforma de revisión de código asistida por IA. El plan Starter cuesta $19/mes por desarrollador e incluye hasta 3 repositorios. El plan Team cuesta $39/mes por desarrollador con repositorios ilimitados, integración con GitHub y GitLab, y reglas personalizadas. El plan Enterprise cuesta $69/mes por desarrollador con compromiso anual e incluye SSO/SAML, registros de auditoría, soporte prioritario 24/7 y un SLA de 99.9% de disponibilidad.",
+    "metadata": { "department": "producto", "type": "pricing" }
+  },
+  {
+    "id": "producto_002",
+    "title": "AuraCode — Límites técnicos",
+    "content": "El analizador de AuraCode procesa archivos de hasta 2 MB. Los repositorios con más de 50.000 archivos se analizan de forma incremental. El límite de llamadas a la API es 5.000 solicitudes por hora en el plan Team y 20.000 por hora en el plan Enterprise. Los lenguajes soportados son Python, JavaScript, TypeScript, Go, Java y C#.",
+    "metadata": { "department": "producto", "type": "specs" }
+  },
+  {
+    "id": "rrhh_001",
+    "title": "Política de trabajo remoto 2026",
+    "content": "Vigente desde enero de 2026. Los empleados pueden trabajar de forma remota hasta 4 días por semana con aprobación del líder de equipo. El día presencial obligatorio es el martes. Existe un estipendio anual de $600 para equipamiento de oficina en casa. El horario base de colaboración es de 9:00 a 14:00 en la zona horaria del empleado.",
+    "metadata": { "department": "rrhh", "type": "policy" }
+  },
+  {
+    "id": "rrhh_002",
+    "title": "Proceso de onboarding",
+    "content": "Día 1: entrega de equipo, creación de cuentas y acceso a sistemas. Día 2: inducción con el equipo y asignación de un mentor. Semana 1: módulos obligatorios de seguridad, cumplimiento y cultura. Semana 2: primera contribución a un repositorio de práctica. Mes 1: evaluación de período de prueba y definición de objetivos a 90 días.",
+    "metadata": { "department": "rrhh", "type": "procedure" }
+  },
+  {
+    "id": "finanzas_001",
+    "title": "Política de reembolsos a clientes",
+    "content": "Las solicitudes de reembolso se envían por el portal de soporte. Los montos menores a $150 se aprueban automáticamente. Los montos iguales o mayores a $150 requieren aprobación del supervisor de finanzas. Una vez aprobado, el reembolso se procesa en 3 a 5 días hábiles al método de pago original. Hay reembolso total disponible dentro de los 30 días posteriores a la compra.",
+    "metadata": { "department": "finanzas", "type": "policy" }
+  },
+  {
+    "id": "soporte_001",
+    "title": "Niveles de soporte y tiempos de respuesta",
+    "content": "El plan Starter tiene soporte por correo con respuesta en hasta 48 horas hábiles. El plan Team incluye soporte por chat con respuesta en hasta 8 horas hábiles. El plan Enterprise incluye soporte prioritario 24/7 con un tiempo de primera respuesta garantizado de 1 hora para incidentes críticos. Los incidentes se clasifican en críticos, altos, medios y bajos.",
+    "metadata": { "department": "soporte", "type": "sla" }
+  },
+  {
+    "id": "seguridad_001",
+    "title": "Política de seguridad y manejo de datos",
+    "content": "AuraCode nunca almacena el código fuente de los clientes de forma permanente: el análisis ocurre en memoria y los artefactos temporales se eliminan tras 24 horas. Todo el tráfico usa cifrado TLS 1.3 y los datos en reposo se cifran con AES-256. Los clientes Enterprise pueden habilitar SSO/SAML y restringir el acceso por rango de IP. Se realizan auditorías de seguridad externas dos veces al año.",
+    "metadata": { "department": "seguridad", "type": "policy" }
+  },
+  {
+    "id": "producto_003",
+    "title": "Integraciones disponibles",
+    "content": "AuraCode se integra de forma nativa con GitHub, GitLab y Bitbucket para disparar revisiones automáticas en cada pull request. También ofrece integraciones con Slack y Microsoft Teams para notificaciones, y con Jira para crear incidencias a partir de hallazgos. La integración con el pipeline de CI se configura mediante un archivo auracode.yml en la raíz del repositorio.",
+    "metadata": { "department": "producto", "type": "integrations" }
+  }
+]

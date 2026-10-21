@@ -1,0 +1,16 @@
+# Dependencias del Workshop RAG (SI3003). Pensado para Google Colab.
+# En Colab se instalan con los %pip install de cada notebook; este archivo
+# documenta las versiones principales para reproducir el entorno.
+gradio
+langchain
+langchain-core
+langchain-text-splitters
+langchain-nvidia-ai-endpoints
+langchain-qdrant
+langchain-community
+qdrant-client
+markitdown[pdf]
+faiss-cpu
+numpy
+requests
+python-dotenv

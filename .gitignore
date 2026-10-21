@@ -1,0 +1,17 @@
+# Entornos y secretos
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Checkpoints de notebooks
+.ipynb_checkpoints/
+
+# Artefactos temporales de Colab / Qdrant en memoria
+.qdrant/
+gradio_cached_examples/
+flagged/
+
+# Sistema
+.DS_Store
